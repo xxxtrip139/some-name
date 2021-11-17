@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-image: linear-gradient(to bottom, #F5F5F500, #F5F5F5);
+
+}
+
+h1, h2, p, a, input, div{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+}
+
+.header_logo{
+    width: 200px;
+}
+
+.header_address{
+    width: 690px;
+}
+
+.header_buttons{
+    width: 310px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-control{
+    width: 100%;
+    border: 1px solid #BFBFBF;
+    border-radius: 2px;
+    height: 40px;
+    padding-left: 30px;
+    font-size: 1rem;
+}
+
+.btn{
+    text-decoration: none;
+    color: #595959;
+    border: 1px solid #8C8C8C;
+    border-radius: 2px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-left: 5px;
+}
+
+.btn-blue{
+    border-color: #1890FF;
+    background-color: #1890FF;
+    color: white;
+}
+
+.banner{
+    height: 300px;
+    background-color: #FFF1B8;
+    background-image: url(../assets/images/bg_banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    border-radius: 2px;
+    padding: 68px 70px;
+}
+
+.banner_text{
+    width: 540px;
+}
+
+.banner_header{
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 46px;
+    color: #302C34;
+    margin-bottom: 15px;
+}
+
+.banner_description{
+    font-size: 24px;
+    line-height: 28px;
+    color: #302C34;
+}
+
