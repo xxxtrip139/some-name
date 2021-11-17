@@ -100,3 +100,31 @@ h1, h2, p, a, input, div{
     color: #302C34;
 }
 
+.main_up{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+} 
+
+.main_up_name{
+    width: 700px
+    font-weight: bold;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+}
+
+.main_up_search{
+    width: 306px
+    
+}
+
+.form-control2{
+    width: 100%;
+    border: 1px solid #BFBFBF;
+    border-radius: 2px;
+    height: 34px;
+    padding-left: 30px;
+    font-size: 1rem;
+}
